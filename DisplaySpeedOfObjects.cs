@@ -3,8 +3,7 @@ using System;
 using UnityEngine;
 //Attach to an object in the Unity editor. Add any object you wish to track the speed of in the _objectsToTrack array.
 public class DisplaySpeedOfObjects : MonoBehaviour
-{
-    [SerializeField] float GUIUpdateTime = 0.1f;
+{ 
     [SerializeField] Transform[] _objectsToTrack;
     [SerializeField] GUIStyle _GUIStyle;
     SpeedTracking[] _trackings;
